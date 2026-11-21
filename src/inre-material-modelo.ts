@@ -52,6 +52,13 @@ const aplicar = (raiz: any, fuente: any) => {
     if (!originales.has(nodo)) {
       originales.set(nodo, nodo.material)
     }
+    if (
+      nodo.geometry != null
+      && nodo.geometry.getAttribute?.('position') != null
+      && nodo.geometry.getAttribute?.('normal') == null
+    ) {
+      nodo.geometry.computeVertexNormals()
+    }
     if (nodo.material !== fuente) {
       nodo.material = fuente
     }
