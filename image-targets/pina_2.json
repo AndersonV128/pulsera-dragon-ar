@@ -1,0 +1,27 @@
+{
+  "imagePath": "image-targets/pina_2_luminance.png",
+  "resources": {
+    "originalImage": "pina_2_original.png",
+    "croppedImage": "pina_2_cropped.png",
+    "thumbnailImage": "pina_2_thumbnail.png",
+    "luminanceImage": "pina_2_luminance.png"
+  },
+  "name": "pina_2",
+  "type": "PLANAR",
+  "metadata": null,
+  "moveable": false,
+  "physicalWidthInMeters": null,
+  "properties": {
+    "top": 0,
+    "left": 128,
+    "width": 768,
+    "height": 1024,
+    "isRotated": false,
+    "originalWidth": 1024,
+    "originalHeight": 1024
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1795226084700,
+  "updated": 1795226084700
+}

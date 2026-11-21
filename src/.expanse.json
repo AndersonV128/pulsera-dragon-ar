@@ -1,0 +1,322 @@
+{
+  "entrySpaceId": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
+  "objects": {
+    "32c430a2-d6ba-4938-8b6b-1dab87cc4400": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0.16,
+            "esGltf": false,
+            "esTextura": false,
+            "esVideo": false
+          }
+        }
+      },
+      "geometry": {
+        "type": "cylinder",
+        "radius": 0.4,
+        "height": 1
+      },
+      "id": "32c430a2-d6ba-4938-8b6b-1dab87cc4400",
+      "material": {
+        "type": "basic",
+        "color": "#8b8b9e",
+        "roughness": 0.45,
+        "metalness": 0.05
+      },
+      "name": "Cilindro",
+      "order": 5.805176370045737,
+      "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
+      "position": [
+        0.357,
+        -1.697000000000001,
+        0.591
+      ],
+      "rotation": [
+        0.7071067811865477,
+        0,
+        0,
+        0.7071067811865477
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    },
+    "90871981-1e08-4bad-b59b-9f301e5b9661": {
+      "components": {
+        "2750c0ec-406d-4276-bc52-703df09b3424": {
+          "id": "2750c0ec-406d-4276-bc52-703df09b3424",
+          "name": "inre-gif",
+          "parameters": {
+            "alphaTest": 0
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0.24,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "sphere",
+        "radius": 0.5
+      },
+      "id": "90871981-1e08-4bad-b59b-9f301e5b9661",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Aguacate_gif.gif"
+        },
+        "inreMaterial": "Aguacate_gif"
+      },
+      "name": "Esfera",
+      "order": 6.805176370045737,
+      "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
+      "position": [
+        0.009,
+        1.7740000000000014,
+        0.8720000000000016
+      ],
+      "rotation": [
+        0.6936357115729902,
+        -0.1373662972880607,
+        0.04089960635194601,
+        0.7059229576945746
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "9368502c-ea11-4694-960b-82c2df7ed8c3": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.65,
+            "demora": 0,
+            "esGltf": true,
+            "esTextura": true,
+            "esVideo": false
+          }
+        },
+        "a41597a0-cda6-444b-862b-6df601a035f0": {
+          "id": "a41597a0-cda6-444b-862b-6df601a035f0",
+          "name": "inre-material-modelo",
+          "parameters": {}
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/biowhale-animated.glb"
+        },
+        "animationClip": "Take 001",
+        "loop": true
+      },
+      "id": "9368502c-ea11-4694-960b-82c2df7ed8c3",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Whale_Diffuse.png"
+        },
+        "repeatY": -1,
+        "inreMaterial": "Whale"
+      },
+      "name": "biowhale-animated",
+      "order": 0.8051763700457368,
+      "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
+      "position": [
+        -0.14,
+        -0.8100000000000005,
+        3.603
+      ],
+      "rotation": [
+        0.7071067811865476,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "a2bd7717-b89e-4673-bc57-ca6863b9a6c1": {
+      "camera": {
+        "type": "perspective",
+        "fov": 60,
+        "nearClip": 0.01,
+        "farClip": 1000,
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled",
+          "direction": "back"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "a2bd7717-b89e-4673-bc57-ca6863b9a6c1",
+      "material": null,
+      "name": "Cámara",
+      "order": 0.5,
+      "parentId": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
+      "position": [
+        0.032,
+        0.363,
+        0.117
+      ],
+      "rotation": [
+        -0.3694417447097654,
+        -0.06205561231503563,
+        0.14677440285705687,
+        0.9154884886834816
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "e9d13398-0afb-4e30-87d5-d55285a16a97": {
+      "components": {
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.664,
+            "demora": 0.08,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        },
+        "df086e73-04cb-4f1b-8115-e4980a8d263f": {
+          "id": "df086e73-04cb-4f1b-8115-e4980a8d263f",
+          "name": "inre-video",
+          "parameters": {
+            "alphaTest": 0.5,
+            "blending": "normal",
+            "depthTest": true,
+            "depthWrite": false,
+            "forceTransparent": true,
+            "side": "double"
+          }
+        }
+      },
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 0.5625
+      },
+      "id": "e9d13398-0afb-4e30-87d5-d55285a16a97",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/cubev2.webm"
+        },
+        "forceTransparent": true,
+        "depthWrite": false,
+        "side": "double",
+        "alphaTest": 0.5
+      },
+      "name": "cubev2",
+      "order": 4.805176370045737,
+      "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
+      "position": [
+        0.763,
+        -1.374,
+        0.56
+      ],
+      "rotation": [
+        0.7071067811865476,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "f4bb1425-464c-4685-9689-a332df1b58fd": {
+      "components": {},
+      "geometry": null,
+      "id": "f4bb1425-464c-4685-9689-a332df1b58fd",
+      "imageTarget": {
+        "name": "pina_2"
+      },
+      "material": null,
+      "name": "Marcador · pina_2",
+      "order": 4.5,
+      "parentId": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "fb88d2fa-7204-42c0-8268-401ee5abefa5": {
+      "activeCamera": "a2bd7717-b89e-4673-bc57-ca6863b9a6c1",
+      "id": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
+      "name": "Espacio principal"
+    }
+  }
+}
