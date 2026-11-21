@@ -1,26 +1,14 @@
 {
   "entrySpaceId": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
   "objects": {
-    "48963aab-3bec-4ad0-8529-4824bcea0f02": {
+    "4af0245a-e470-4b21-80a1-43c32d1a37fb": {
       "components": {
-        "187fd1ca-23ca-4993-a68e-4bc3b9aace2d": {
-          "id": "187fd1ca-23ca-4993-a68e-4bc3b9aace2d",
-          "name": "inre-video",
-          "parameters": {
-            "alphaTest": 0.5,
-            "blending": "normal",
-            "depthTest": true,
-            "depthWrite": false,
-            "forceTransparent": true,
-            "side": "double"
-          }
-        },
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
           "parameters": {
-            "cubo": 0.75,
-            "demora": 0.16,
+            "cubo": 0.642,
+            "demora": 0,
             "esGltf": false,
             "esTextura": true,
             "esVideo": true
@@ -28,68 +16,51 @@
         }
       },
       "geometry": {
-        "type": "box",
-        "width": 1,
-        "height": 1,
-        "depth": 1
+        "type": "plane",
+        "width": 0.5625,
+        "height": 1
       },
-      "id": "48963aab-3bec-4ad0-8529-4824bcea0f02",
+      "id": "4af0245a-e470-4b21-80a1-43c32d1a37fb",
       "material": {
         "type": "video",
         "color": "#ffffff",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/cubev2.webm"
-        },
-        "forceTransparent": true,
-        "depthWrite": false,
-        "side": "double",
-        "alphaTest": 0.5,
-        "inreMaterial": "cubev2"
+          "asset": "assets/Animate_image_with_moving_clouds_8c968e04.mp4"
+        }
       },
-      "name": "Cubo",
-      "order": 7.805176370045737,
-      "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
+      "name": "Animate_image_with_moving_clouds_8c968e04",
+      "order": 0.05805155740853274,
+      "parentId": "893ab667-5db9-4f2e-be68-ba1781d3c7fb",
       "position": [
-        0.018,
-        -0.598,
-        0.602
+        0.007,
+        -0.03,
+        0.014
       ],
       "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865475
+        -0.03363003127399004,
+        0.0009854511071108482,
+        0.0015859819284567442,
+        0.9994326063041712
       ],
       "scale": [
-        1,
-        1,
+        1.05,
+        0.85,
         1
       ],
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      },
       "videoControls": {
         "loop": true,
         "paused": false
       }
     },
-    "90871981-1e08-4bad-b59b-9f301e5b9661": {
+    "81f31b44-8d53-45e4-9645-6488c9416399": {
       "components": {
-        "2750c0ec-406d-4276-bc52-703df09b3424": {
-          "id": "2750c0ec-406d-4276-bc52-703df09b3424",
-          "name": "inre-gif",
-          "parameters": {
-            "alphaTest": 0
-          }
-        },
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
           "parameters": {
-            "cubo": 0.75,
-            "demora": 0.08,
+            "cubo": 0.443,
+            "demora": 0,
             "esGltf": false,
             "esTextura": true,
             "esVideo": true
@@ -97,141 +68,64 @@
         }
       },
       "geometry": {
-        "type": "sphere",
-        "radius": 0.5
+        "type": "plane",
+        "width": 0.5625,
+        "height": 1
       },
-      "id": "90871981-1e08-4bad-b59b-9f301e5b9661",
+      "id": "81f31b44-8d53-45e4-9645-6488c9416399",
       "material": {
-        "type": "basic",
+        "type": "video",
         "color": "#ffffff",
-        "roughness": 0.85,
-        "metalness": 0,
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/Aguacate_gif.gif"
-        },
-        "inreMaterial": "Aguacate_gif"
+          "asset": "assets/Animate_image_with_traffic_light_4b5b4184.mp4"
+        }
       },
-      "name": "Esfera",
-      "order": 6.805176370045737,
-      "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
+      "name": "Animate_image_with_traffic_light_4b5b4184",
+      "order": 1.8791202536466511,
+      "parentId": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
       "position": [
-        0.009,
-        1.7740000000000014,
-        0.8720000000000016
+        0.003,
+        -0.013,
+        -0.032
       ],
       "rotation": [
-        0.6936357115729902,
-        -0.1373662972880607,
-        0.04089960635194601,
-        0.7059229576945746
+        -0.7461434954971736,
+        0.011616058670125912,
+        0.006916059965313084,
+        0.6656478944778444
       ],
       "scale": [
-        1,
+        0,
         1,
         1
       ],
-      "shadow": {
-        "castShadow": true,
-        "receiveShadow": true
-      },
       "videoControls": {
         "loop": true,
         "paused": false
       }
     },
-    "9368502c-ea11-4694-960b-82c2df7ed8c3": {
-      "components": {
-        "__inre_aparicion__": {
-          "id": "__inre_aparicion__",
-          "name": "inre-aparicion",
-          "parameters": {
-            "cubo": 0.65,
-            "demora": 0,
-            "esGltf": true,
-            "esTextura": true,
-            "esVideo": false
-          }
-        },
-        "a41597a0-cda6-444b-862b-6df601a035f0": {
-          "id": "a41597a0-cda6-444b-862b-6df601a035f0",
-          "name": "inre-material-modelo",
-          "parameters": {}
-        }
-      },
-      "geometry": null,
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/biowhale-animated.glb"
-        },
-        "animationClip": "Take 001",
-        "loop": true
-      },
-      "id": "9368502c-ea11-4694-960b-82c2df7ed8c3",
-      "material": {
-        "type": "basic",
-        "color": "#ffffff",
-        "roughness": 0.85,
-        "metalness": 0,
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/Whale_Diffuse.png"
-        },
-        "repeatY": -1,
-        "inreMaterial": "Whale"
-      },
-      "name": "biowhale-animated",
-      "order": 0.8051763700457368,
-      "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
-      "position": [
-        -0.14,
-        -0.739,
-        3.397
-      ],
-      "rotation": [
-        0.7071067811865475,
-        0,
-        0,
-        0.7071067811865475
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ]
-    },
-    "a2bd7717-b89e-4673-bc57-ca6863b9a6c1": {
-      "camera": {
-        "type": "perspective",
-        "fov": 60,
-        "nearClip": 0.01,
-        "farClip": 1000,
-        "xr": {
-          "xrCameraType": "world",
-          "phone": "AR",
-          "desktop": "disabled",
-          "headset": "disabled",
-          "direction": "back"
-        }
-      },
+    "893ab667-5db9-4f2e-be68-ba1781d3c7fb": {
       "components": {},
       "geometry": null,
-      "id": "a2bd7717-b89e-4673-bc57-ca6863b9a6c1",
+      "id": "893ab667-5db9-4f2e-be68-ba1781d3c7fb",
+      "imageTarget": {
+        "name": "carratera_web"
+      },
       "material": null,
-      "name": "Cámara",
-      "order": 0.5,
+      "name": "Marcador · carratera_web",
+      "order": 2.879120253646651,
       "parentId": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
       "position": [
-        0.032,
-        0.363,
-        0.117
+        0,
+        0,
+        0
       ],
       "rotation": [
-        -0.3694417447097654,
-        -0.06205561231503563,
-        0.14677440285705687,
-        0.9154884886834816
+        0,
+        0,
+        0,
+        1
       ],
       "scale": [
         1,
@@ -239,16 +133,16 @@
         1
       ]
     },
-    "f4bb1425-464c-4685-9689-a332df1b58fd": {
+    "f55b8b09-4235-4e98-b05e-08ee017ff7fe": {
       "components": {},
       "geometry": null,
-      "id": "f4bb1425-464c-4685-9689-a332df1b58fd",
+      "id": "f55b8b09-4235-4e98-b05e-08ee017ff7fe",
       "imageTarget": {
-        "name": "pina_2"
+        "name": "mi_calle_3"
       },
       "material": null,
-      "name": "Marcador · pina_2",
-      "order": 4.5,
+      "name": "Marcador · mi_calle_3",
+      "order": 0.879120253646651,
       "parentId": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
       "position": [
         0,
@@ -270,7 +164,7 @@
   },
   "spaces": {
     "fb88d2fa-7204-42c0-8268-401ee5abefa5": {
-      "activeCamera": "a2bd7717-b89e-4673-bc57-ca6863b9a6c1",
+      "activeCamera": "",
       "id": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
       "name": "Espacio principal"
     }

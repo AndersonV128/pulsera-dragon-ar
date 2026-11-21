@@ -1,0 +1,27 @@
+{
+  "imagePath": "image-targets/carratera_web_luminance.png",
+  "resources": {
+    "originalImage": "carratera_web_original.png",
+    "croppedImage": "carratera_web_cropped.png",
+    "thumbnailImage": "carratera_web_thumbnail.png",
+    "luminanceImage": "carratera_web_luminance.png"
+  },
+  "name": "carratera_web",
+  "type": "PLANAR",
+  "metadata": null,
+  "moveable": false,
+  "physicalWidthInMeters": null,
+  "properties": {
+    "top": 62,
+    "left": 0,
+    "width": 277,
+    "height": 369,
+    "isRotated": false,
+    "originalWidth": 277,
+    "originalHeight": 493
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1795300632409,
+  "updated": 1795300632409
+}

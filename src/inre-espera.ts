@@ -6,7 +6,7 @@
  * lienzo. Si algo falla dentro, se retira sola para no dejar la pantalla tapada.
  */
 
-const MARCADORES = ["pina","pina_2"]
+const MARCADORES = ["pina","pina_2","mi_calle","mi_calle_2","mi_calle_3","carratera_web"]
 
 /**
  * Cuenta las descargas en curso de archivos del proyecto (assets/ o blobs) para

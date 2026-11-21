@@ -1,8 +1,8 @@
-# Prueba ballena 
+# CALLE 
 
 Experiencia de realidad aumentada creada con Zence Inverse Reality.
 
-**Modo:** World Effects (anclaje al suelo con SLAM)
+**Modo:** 3D, sin realidad aumentada
 **Hosting:** GitHub Pages
 **En vivo:** https://AndersonV128.github.io/pulsera-dragon-ar/
 

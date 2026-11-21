@@ -1,0 +1,27 @@
+{
+  "imagePath": "image-targets/mi_calle_luminance.png",
+  "resources": {
+    "originalImage": "mi_calle_original.png",
+    "croppedImage": "mi_calle_cropped.png",
+    "thumbnailImage": "mi_calle_thumbnail.png",
+    "luminanceImage": "mi_calle_luminance.png"
+  },
+  "name": "mi_calle",
+  "type": "PLANAR",
+  "metadata": null,
+  "moveable": false,
+  "physicalWidthInMeters": null,
+  "properties": {
+    "top": 160,
+    "left": 0,
+    "width": 720,
+    "height": 960,
+    "isRotated": false,
+    "originalWidth": 720,
+    "originalHeight": 1280
+  },
+  "userMetadataIsJson": true,
+  "loadAutomatically": true,
+  "created": 1795299991084,
+  "updated": 1795299991084
+}
