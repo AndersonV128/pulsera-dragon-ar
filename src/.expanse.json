@@ -1,8 +1,20 @@
 {
   "entrySpaceId": "fb88d2fa-7204-42c0-8268-401ee5abefa5",
   "objects": {
-    "32c430a2-d6ba-4938-8b6b-1dab87cc4400": {
+    "48963aab-3bec-4ad0-8529-4824bcea0f02": {
       "components": {
+        "187fd1ca-23ca-4993-a68e-4bc3b9aace2d": {
+          "id": "187fd1ca-23ca-4993-a68e-4bc3b9aace2d",
+          "name": "inre-video",
+          "parameters": {
+            "alphaTest": 0.5,
+            "blending": "normal",
+            "depthTest": true,
+            "depthWrite": false,
+            "forceTransparent": true,
+            "side": "double"
+          }
+        },
         "__inre_aparicion__": {
           "id": "__inre_aparicion__",
           "name": "inre-aparicion",
@@ -10,36 +22,44 @@
             "cubo": 0.75,
             "demora": 0.16,
             "esGltf": false,
-            "esTextura": false,
-            "esVideo": false
+            "esTextura": true,
+            "esVideo": true
           }
         }
       },
       "geometry": {
-        "type": "cylinder",
-        "radius": 0.4,
-        "height": 1
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
       },
-      "id": "32c430a2-d6ba-4938-8b6b-1dab87cc4400",
+      "id": "48963aab-3bec-4ad0-8529-4824bcea0f02",
       "material": {
-        "type": "basic",
-        "color": "#8b8b9e",
-        "roughness": 0.45,
-        "metalness": 0.05
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/cubev2.webm"
+        },
+        "forceTransparent": true,
+        "depthWrite": false,
+        "side": "double",
+        "alphaTest": 0.5,
+        "inreMaterial": "cubev2"
       },
-      "name": "Cilindro",
-      "order": 5.805176370045737,
+      "name": "Cubo",
+      "order": 7.805176370045737,
       "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
       "position": [
-        0.357,
-        -1.697000000000001,
-        0.591
+        0.018,
+        -0.598,
+        0.602
       ],
       "rotation": [
-        0.7071067811865477,
+        0.7071067811865475,
         0,
         0,
-        0.7071067811865477
+        0.7071067811865475
       ],
       "scale": [
         1,
@@ -49,6 +69,10 @@
       "shadow": {
         "castShadow": true,
         "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
       }
     },
     "90871981-1e08-4bad-b59b-9f301e5b9661": {
@@ -65,7 +89,7 @@
           "name": "inre-aparicion",
           "parameters": {
             "cubo": 0.75,
-            "demora": 0.24,
+            "demora": 0.08,
             "esGltf": false,
             "esTextura": true,
             "esVideo": true
@@ -162,14 +186,14 @@
       "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
       "position": [
         -0.14,
-        -0.8100000000000005,
-        3.603
+        -0.739,
+        3.397
       ],
       "rotation": [
-        0.7071067811865476,
+        0.7071067811865475,
         0,
         0,
-        0.7071067811865476
+        0.7071067811865475
       ],
       "scale": [
         1,
@@ -214,74 +238,6 @@
         1,
         1
       ]
-    },
-    "e9d13398-0afb-4e30-87d5-d55285a16a97": {
-      "components": {
-        "__inre_aparicion__": {
-          "id": "__inre_aparicion__",
-          "name": "inre-aparicion",
-          "parameters": {
-            "cubo": 0.664,
-            "demora": 0.08,
-            "esGltf": false,
-            "esTextura": true,
-            "esVideo": true
-          }
-        },
-        "df086e73-04cb-4f1b-8115-e4980a8d263f": {
-          "id": "df086e73-04cb-4f1b-8115-e4980a8d263f",
-          "name": "inre-video",
-          "parameters": {
-            "alphaTest": 0.5,
-            "blending": "normal",
-            "depthTest": true,
-            "depthWrite": false,
-            "forceTransparent": true,
-            "side": "double"
-          }
-        }
-      },
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 0.5625
-      },
-      "id": "e9d13398-0afb-4e30-87d5-d55285a16a97",
-      "material": {
-        "type": "video",
-        "color": "#ffffff",
-        "textureSrc": {
-          "type": "asset",
-          "asset": "assets/cubev2.webm"
-        },
-        "forceTransparent": true,
-        "depthWrite": false,
-        "side": "double",
-        "alphaTest": 0.5
-      },
-      "name": "cubev2",
-      "order": 4.805176370045737,
-      "parentId": "f4bb1425-464c-4685-9689-a332df1b58fd",
-      "position": [
-        0.763,
-        -1.374,
-        0.56
-      ],
-      "rotation": [
-        0.7071067811865476,
-        0,
-        0,
-        0.7071067811865476
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "videoControls": {
-        "loop": true,
-        "paused": false
-      }
     },
     "f4bb1425-464c-4685-9689-a332df1b58fd": {
       "components": {},
